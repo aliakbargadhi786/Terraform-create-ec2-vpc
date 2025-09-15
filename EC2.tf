@@ -23,7 +23,7 @@ resource "aws_security_group" "allow_ssh" {
 
 # EC2 Instance
 resource "aws_instance" "example" {
-  ami                         = "ami-0240c620957e314cf" # Ubuntu 22.04 in us-east-1
+  ami                         = "ami-0653333300" # Ubuntu 22.04 in us-east-1
   instance_type               = "t2.nano"               # ✅ smaller instance to avoid vCPU limit error
   subnet_id                   = aws_subnet.public_subnet.id
   vpc_security_group_ids      = [aws_security_group.allow_ssh.id]

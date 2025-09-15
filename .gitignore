@@ -2,10 +2,10 @@
   "version": 4,
   "terraform_version": "1.13.2",
   "serial": 13,
-  "lineage": "c28d372b-90b3-32cd-ba0b-d564c8b10108",
+  "lineage": "c3rrv-80ce-53dc-asdd-000",
   "outputs": {
     "ec2_public_ip": {
-      "value": "3.87.192.89",
+      "value": "4.77.190.99",
       "type": "string"
     }
   },
@@ -19,8 +19,8 @@
         {
           "schema_version": 2,
           "attributes": {
-            "ami": "ami-0360c520857e3138f",
-            "arn": "arn:aws:ec2:us-east-1:230077188260:instance/i-06aee932e6f4e6e92",
+            "ami": "ami-0f",
+            "arn": "arn:aws:ec2:us-east-1:20:instance/i-06",
             "associate_public_ip_address": true,
             "availability_zone": "us-east-1a",
             "capacity_reservation_specification": [
@@ -92,7 +92,7 @@
             "primary_network_interface": [
               {
                 "delete_on_termination": true,
-                "network_interface_id": "eni-0dcec32f0d98becbe"
+                "network_interface_id": "eni-0de"
               }
             ],
             "primary_network_interface_id": "eni-0dcec32f0d98becbe",
@@ -106,7 +106,7 @@
             ],
             "private_ip": "10.0.1.77",
             "public_dns": "",
-            "public_ip": "3.87.192.89",
+            "public_ip": "2.77.190.84",
             "region": "us-east-1",
             "root_block_device": [
               {
@@ -118,7 +118,7 @@
                 "tags": {},
                 "tags_all": {},
                 "throughput": 125,
-                "volume_id": "vol-0120ae6659167d334",
+                "volume_id": "vol-012055",
                 "volume_size": 8,
                 "volume_type": "gp3"
               }
